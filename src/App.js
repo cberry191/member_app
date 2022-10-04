@@ -1,4 +1,8 @@
-import { Login } from "./Components/Login"
+import  Home  from "./pages/Home"
+import { List } from "./pages/List"
+import { Login } from "./pages/Login"
+import { New } from "./pages/New"
+import { Single } from "./pages/Single"
 import {
     BrowserRouter,
     Routes,
@@ -25,7 +29,7 @@ export const App = () => {
                         </Route>
                     </Route>
                 </Routes>
-            </BrowserRouter>
+            </BrowserRouter>   
         </div>
     );
 }

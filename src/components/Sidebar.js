@@ -5,7 +5,7 @@ let logo = ""
 
 const Sidebar = () => {
     return (
-        <div>
+        <div className="flex-1">
             <div className={top}>
                 <div className={logo}>AGOGE</div>
             </div>            

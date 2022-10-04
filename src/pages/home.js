@@ -1,9 +1,12 @@
-import Sidebar from "../components/Sidebar";
+import Sidebar from "../components/Sidebar.js";
 
 const Home = () => {
     return (
-        <div>
+        <div className="flex">
             <Sidebar />
+            <div className="w-6/7">
+                HOME!
+            </div>
         </div>
     );
 }
